@@ -1,4 +1,4 @@
-# Adventure
+# Adventure - Translate in French by me (0% progress)
 
 Adventure is a node.js powered replacement for the previous library management
 system that ran WinWorld before. It's a rigid and simple CMS for managing
