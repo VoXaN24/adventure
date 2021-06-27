@@ -63,4 +63,4 @@ server.use(require("./saUserRoutes.js")(config, database, sitePages));
 // handle last because pages soaks up root routes
 server.use(require("./pageRoutes.js")(config, database, sitePages));
 
-server.listen(3000, config.runBehindProxy ? "127.0.0.1" : "0.0.0.0");
+server.listen(80, config.runBehindProxy ? "127.0.0.1" : "0.0.0.0");

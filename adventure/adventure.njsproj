@@ -3,10 +3,10 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>adventure</Name>
-    <RootNamespace>adventure</RootNamespace>
-    <NodejsPort>3000</NodejsPort>
-    <LaunchUrl>http://localhost:3000/</LaunchUrl>
+    <Name>PCArchive</Name>
+    <RootNamespace>PCArchive</RootNamespace>
+    <NodejsPort>80</NodejsPort>
+    <LaunchUrl>http://localhost:80/</LaunchUrl>
     <ScriptArguments>config.json</ScriptArguments>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
